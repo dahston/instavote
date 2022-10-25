@@ -9,7 +9,7 @@ replicas:
 - name: vote
   count: 4
 images:
-- name: schoolofdevops/vote
+- name: dahston/vote
   newTag: main-a81f6aa0-1666732236 # {"$imagepolicy": "flux-system:vote:tag"}
 namespace: instavote
 commonLabels:
